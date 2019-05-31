@@ -29,7 +29,6 @@ namespace ООП_4ПИЭ_81_ЛР_N4_Вопиловский
         public void getStockItem(int i, int newJear, out int id, out string name, out string producer, out int category, 
                                         out int price, out int markup, out int markup2, out int year)
         {   //метода получить данные о товаре по ИД
-
             this.stock[i].Get(out int _id, out string _name, out string _producer, out int _category, 
                               out int _price, out int _markup, out int _kZ, out int _year);
             id = _id;

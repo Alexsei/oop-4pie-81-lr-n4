@@ -26,7 +26,7 @@ namespace ООП_4ПИЭ_81_ЛР_N4_Вопиловский
             sh.addStockItem("Кукла ЛОЛ", "meChina", 1, 500, 20, this.zK, 2015 );
             sh.addStockItem("Кукла Беби Борн", "Born", 6, 1500, 15, this.zK, 2017);
             sh.addStockItem("Супер машинка", "AvtoRun", 2, 1900, 13, this.zK, 2018);
-            sh.addStockItem("Водяной пистолет", "АкваПлюс", 5, 300, 140, this.zK, 2019);
+            sh.addStockItem("Водяной пистолет", "АкваПлюс", 5, 300, 14, this.zK, 2019);
             sh.addStockItem("Конструктор", "ООО Умник", 8, 300, 25, this.zK, 2019);
             sh.addStockItem("Говоломка", "ОАО Секрет", 7, 500, 1, this.zK, 2018);
             sh.addStockItem("Краски", "Триколор", 6, 1900, 5, this.zK, 2017);

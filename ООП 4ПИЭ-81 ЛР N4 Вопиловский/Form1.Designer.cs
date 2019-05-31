@@ -34,12 +34,12 @@
             this.sProducer = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.sCategory = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.sPrice = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.year = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.bPrice = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.sMarkup = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.sMarkup2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.year = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.bPrice = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // listStoreView
@@ -88,6 +88,17 @@
             this.sPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.sPrice.Width = 80;
             // 
+            // year
+            // 
+            this.year.Text = "Год ";
+            this.year.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.year.Width = 45;
+            // 
+            // bPrice
+            // 
+            this.bPrice.Text = "баз.Цена";
+            this.bPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
             // sMarkup
             // 
             this.sMarkup.Text = "Баз.Наценка";
@@ -99,12 +110,6 @@
             this.sMarkup2.Text = "Нац. тек. год";
             this.sMarkup2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.sMarkup2.Width = 87;
-            // 
-            // year
-            // 
-            this.year.Text = "Год ";
-            this.year.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.year.Width = 45;
             // 
             // comboBox1
             // 
@@ -129,11 +134,6 @@
             this.label1.Size = new System.Drawing.Size(71, 13);
             this.label1.TabIndex = 3;
             this.label1.Text = "Выбрать год";
-            // 
-            // bPrice
-            // 
-            this.bPrice.Text = "баз.Цена";
-            this.bPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // Form1
             // 
