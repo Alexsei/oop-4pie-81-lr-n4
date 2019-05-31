@@ -12,8 +12,8 @@ namespace ООП_4ПИЭ_81_ЛР_N4_Вопиловский
 {
     public partial class Form1 : Form
     {
-        Shop sh = new Shop();
-        int zK = 2;
+        Shop sh = new Shop(); // создание объекта магазин
+        int zK = 2; // статический коэфициент повышения надбавки 
         public Form1()
         {
             InitializeComponent();

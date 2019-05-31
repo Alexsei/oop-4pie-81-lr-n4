@@ -23,7 +23,6 @@ namespace ООП_4ПИЭ_81_ЛР_N4_Вопиловский
             this.category = category;
             this.price = price;
         }
-
         public int Id  // свойство id товара
         {
             set

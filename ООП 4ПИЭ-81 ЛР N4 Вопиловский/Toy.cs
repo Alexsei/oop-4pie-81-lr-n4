@@ -46,7 +46,6 @@ namespace ООП_4ПИЭ_81_ЛР_N4_Вопиловский
         }
         public int newPrice()
         {   // расчет наценки за год;
-          //  Console.WriteLine(this.price + " | " + this.markup + " | " + (this.price * this.markup / 100));
             return (this.price * this.markup / 100);
         }
 
@@ -55,7 +54,6 @@ namespace ООП_4ПИЭ_81_ЛР_N4_Вопиловский
 
             if (newYear - this.year > 0)
             {
-                Console.WriteLine(this.year + " | " + this.kZ + " | " + Math.Pow(this.kZ, (newYear - this.year-1)));
                 return this.price * this.markup / 100 *
                     Convert.ToInt32( Math.Pow(this.kZ, (newYear - this.year - 1)));
             } else
@@ -63,9 +61,5 @@ namespace ООП_4ПИЭ_81_ЛР_N4_Вопиловский
                 return 0;
             }
         }
-
-
-
-
     }
 }
