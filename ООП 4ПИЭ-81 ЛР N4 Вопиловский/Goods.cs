@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ООП_4ПИЭ_81_ЛР_N4_Вопиловский
 {
-    class Goods
+    class Goods 
     {
         //Класс – товар в магазине игрушек.Известны наименование товара, возрастная категория, производитель, цена.
         protected int id;     // id товара
